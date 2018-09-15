@@ -1,7 +1,7 @@
 package wsm;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.*;
 
 public class MyClass {
 	public static void main(String[] args) {
