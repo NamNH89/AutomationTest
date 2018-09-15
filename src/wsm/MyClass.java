@@ -1,16 +1,16 @@
 package wsm;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.*;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class MyClass {
 	public static void main(String[] args) {
         // declaration and instantiation of objects/variables
     	System.setProperty("webdriver.gecko.driver", "lib/geckodriver");
-		WebDriver driver = new ChromeDriver();
-		//comment the above 2 lines and uncomment below 2 liomeDrivernes to use Chrome
-		//System.setProperty("webdrivomeer.chrome.driver","G:\\chromedriver.exe");
-		//WebDriver driver = new ChromeDriver();ome
+		WebDriver driver = new FirefoxDriver();
+		//comment the above 2 lines and uncomment below 2 lines to use Chrome
+		//System.setProperty("webdriver.chrome.driver","G:\\chromedriver.exe");
+		//WebDriver driver = new ChromeDriver();
     	
         String baseUrl = "http://demo.guru99.com/test/newtours/";
         String expectedTitle = "Welcome: Mercury Tours";
